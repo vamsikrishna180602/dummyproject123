@@ -1,0 +1,78 @@
+#container {
+    width: 90%;
+    margin: 60px auto;
+    border: 2px;
+    border-top: none;
+    border-bottom: none;
+    border-left: solid;
+    border-right: solid;
+    border-color: black;
+    background: linear-gradient(to right, rgb(240, 150, 165), rgb(148, 54, 148));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+    #box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9, #box10, #box11{
+    margin-top: 80px;
+    margin-right: 2px;
+    margin-left: 2px;
+    width: calc(14.28% - 4px - 4px);
+    height: 150px;
+    border: 2px solid black;
+    background: linear-gradient(to right, rgb(238, 170, 62), rgb(255, 140, 0));
+    display: flex;
+    }
+    .box11, .box21, .box31, .box41, .box51, .box61, .box71, .box81, .box91, .box101, .box111{
+    height:40px;
+    width:40px;
+    border:2px solid black;
+    background: linear-gradient(to right, rgb(123, 197, 226),rgb(50, 50, 202));
+    font-size: small;
+    }
+    #box2{
+    justify-content: center;
+    }
+    #box3{
+    justify-content: flex-end;
+    }
+    #box4{
+    justify-content: space-around;
+    }
+    #box5{
+    justify-content: space-between;
+    }#box6{
+    justify-content: space-evenly;
+    }
+    #box8{
+    align-items: center;
+    }
+    #box9{
+    align-items: flex-end;
+    }
+    #box10{
+    justify-content: center;
+    align-items: center;
+    }
+    #box11{
+    justify-content: center;
+    align-items: flex-end;
+    }
+    @media (max-width: 600px){
+    #box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9, #box10, #box11{
+    width: calc(50% - 4px - 4px);
+    }
+    }
+    @media (min-width: 601px){
+    #box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9, #box10, #box11{
+    width: calc(33.33% - 4px - 4px);
+    }
+    @media (min-width: 901px){
+    #box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9, #box10, #box11{
+    width: calc(25% - 4px - 4px);
+    }
+    }
+    @media (min-width: 1261px){
+    #box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9, #box10, #box11{
+    width: calc(14.28% - 4px - 4px);
+    }
+    }

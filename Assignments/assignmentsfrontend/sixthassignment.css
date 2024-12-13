@@ -1,0 +1,28 @@
+header{
+    text-align: center;
+    width: 100%;
+    padding: 8px 0px;
+    background-color: rgb(47, 46, 46);
+    color:white;
+    }
+    body{
+    margin:0px;
+    }
+    #container{
+    display: grid;
+    grid-template-columns: 3fr 7fr; /* Two equal columns */
+    }
+    #sideBar{
+    background: rgb(236, 226, 226);
+    height:570px;
+    }
+    h2,p{
+    margin-left: 15px;
+    }
+    footer{
+    text-align: center;
+    width: 100%;
+    padding: 7px 0px;
+    background-color: rgb(47, 46, 46);
+    color:white;
+    }

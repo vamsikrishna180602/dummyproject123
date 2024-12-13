@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+#moviecontainer{
+    width: 90%; 
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.moviethumb{
+    border: 1px solid black;
+    width: calc(25% - 4px - 30px - 30px);
+    padding: 10px;
+    text-align: center;
+    margin: 15px;    
+}
+
+.image{
+height: 250px;
+    width: 100%;  
+}
+
+
+body{
+    font-family: "nunito", sans-serif;
+}
+
+#movieinput{
+    width: 200px;
+    height: 25px;
+    border-radius: 3px;
+}
+
+
+
+
+
+
+@media (max-width:600px) {
+    .moviethumb{
+    width: calc(100% - 30px - 30px);
+    }
+    
+}
+
+@media (min-width:601px) {
+    .moviethumb{
+    width: calc(50% - 30px - 30px);
+    }
+
+    
+}
+@media (min-width:901px) {
+    .moviethumb{
+    width: calc(33.33% - 30px - 30px);
+    }
+   
+}
+@media (min-width:1201px) {
+    .moviethumb{
+    width: calc(25% - 30px - 30px);
+    }    
+}

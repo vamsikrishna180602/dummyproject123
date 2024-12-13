@@ -1,0 +1,216 @@
+#container{
+    display: flex;
+    height:500px;
+    width:60%;
+    align-items: center;
+    justify-content: center;
+    margin-top:120px;
+    margin-left:300px;
+    }
+    #Login-part{
+    border:2px solid #2874f0;
+    width:30%;
+    height:500px;
+    background-color: #2874f0;
+    }
+    #account-part{
+    border:2px solid rgb(228, 223, 223);
+    background-color: rgb(228, 223, 223);
+    height:500px;
+    width:60%
+    }
+    h1{
+    padding-top:40px;
+    padding-left:40px;
+    color:white;
+    }
+    .style-part{
+    color:rgb(198, 189, 189);
+    padding-top:20px;
+    padding-left:40px;
+    font-weight: 20;
+    }
+    img{
+    padding-top:150px;
+    padding-left:15px;
+    }
+    button{
+    margin-top: 16px;
+    color:white;
+    background-color: #fb641b;
+    width: 80%;
+    height: 48px;
+    font-size: 15px; 
+    border: none;
+    margin-left: 5px;
+    margin-top:20px;
+    }
+    button:hover{
+    background-color:#2874f0;
+    }
+    h2{
+    padding-top:40px;
+    padding-left:10px;
+    }
+    .style-part2{
+    padding-top:40px;
+    padding-left:5px;
+    }
+    pre{
+    padding-bottom:5px;
+    text-align:center;
+    }
+    .Email-part{
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 80%;
+    color: #a59d9d;
+    border: none;
+    border-bottom: 1px solid #a59d9d;
+    }
+    .entry{
+    background-color: #e4dfdf;
+    margin-top: 50px;
+    width: 80%;
+    color: #a59d9d;
+    border: none;
+    font-size: larger;
+    }
+    /* Remove the border of the input field */
+    input[type="text"] {
+    border: none; /* No border */
+    outline: none; /* Remove the outline on focus */
+    }
+    .termsPart{
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 80%;
+    }
+    .links{
+    color: #2874f0;
+    }
+    .buttonOtp{
+    margin-top: 16px;
+    margin-left: 30px;
+    }
+    .signup{
+    text-align: center;
+    padding-top:200px;
+    }
+    .link1{
+    color: #2874f0;
+    font-weight: 500;
+    }
+    a, img {
+    text-decoration: none;
+    color: inherit;
+    border: none;
+    outline: none;
+    }
+    /* Media Queries */
+    /* Small devices (phones, 0-600px) */
+    @media (max-width: 600px) {
+    #container {
+    flex-direction: row;
+    width: 100%;
+    margin-top:120px;
+    margin-left:0px;
+    }
+    #Login-part, #account-part {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    }
+    img {
+    padding-top: 140px;
+    padding-left: 0;
+    }
+    button {
+    width: 80%;
+    margin-left: 0;
+    }
+    .signup{
+    text-align: center;
+    padding-top:170px;
+    padding-left: 5px;
+    }
+    .link1{
+    color: #2874f0;
+    font-weight: 2;
+    font-size: small;
+    }
+    .entry{
+    background-color: #e4dfdf;
+    margin-top: 50px;
+    width: 80%;
+    color: #a59d9d;
+    border: none;
+    font-size: xx-small;
+    }
+    }
+    /* Medium devices (tablets, 601px-900px) */
+    @media (min-width: 601px) and (max-width: 900px) {
+    #container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    #Login-part, #account-part {
+    width: 45%;
+    height: 400px;
+    }
+    h1, .style-part, .style-part2 {
+    padding-left: 30px;
+    }
+    img {
+    padding-top: 30px;
+    padding-left: 20px;
+    }
+    .signup{
+    text-align: center;
+    padding-top:100px;
+    }
+    .link1{
+    color: #2874f0;
+    font-weight: 200;
+    }
+    .entry{
+    background-color: #e4dfdf;
+    margin-top: 50px;
+    width: 80%;
+    color: #a59d9d;
+    border: none;
+    font-size: smaller;
+    }
+    }
+    /* Large devices (laptops/desktops, 901px-1200px) */
+    @media (min-width: 901px) and (max-width: 1200px) {
+    #container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    #Login-part, #account-part {
+    width: 40%;
+    height: 450px;
+    }
+    img {
+    padding-top: 50px;
+    padding-left: 0;
+    }
+    .signup{
+    text-align: center;
+    padding-top:150px;
+    }
+    .entry{
+    background-color: #e4dfdf;
+    margin-top: 50px;
+    width: 80%;
+    color: #a59d9d;
+    border: none;
+    font-size: smaller;
+    }
+    }
